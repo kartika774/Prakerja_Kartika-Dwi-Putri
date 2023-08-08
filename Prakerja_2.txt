@@ -1,0 +1,64 @@
+﻿NAMA : KARTIKA DWI PUTRI
+NIM : 1806060021
+UTS DASAR PEMOGRAMAN KOMPUTER
+CODE 01
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main(){
+float modal, bulan, besar_investasi, investasi, minimal, lama, bunga, total_keuntungan, total_diperoleh;
+	cout<<"Masukkan Durasi Investasi (Bulan) :";
+	cin>>lama;
+	cout<<"Masukkan Investasi Minimal/Bulan :";
+	cin>>minimal;
+	 cout<<"\n--------------------------------------";
+	
+		
+	for (int bulan = 1; bulan <= 3; bulan++)
+	
+	cout<<"\nMasukkan besar debet bulan ke-1 :" ;
+		cin>>modal;
+		besar_investasi=modal+investasi;
+		bunga=besar_investasi*(5/100);
+		total_keuntungan=besar_investasi+bunga;
+		
+		cout<<"\nBesar investasi sampai bulan ke-1 adalah :"<<besar_investasi;
+		cout<<"\nBunga Tabungan Anda bulan ke-1 adalah :"<<bunga;
+		cout<<"\nTotal investasi sampai bulan ke-1 adalah :"<<total_keuntungan;
+		cout<<"\n--------------------------------------";
+		
+		for (int bulan = 2; bulan <= 3; bulan++)
+		cout<<"\nMasukkan besar debet bulan ke-2 :" ;
+		cin>>modal;
+		besar_investasi=modal+investasi;
+		bunga=besar_investasi*(5/100);
+		total_keuntungan=besar_investasi+bunga;
+		
+		cout<<"\nBesar investasi sampai bulan ke-2 adalah :"<<besar_investasi;
+		cout<<"\nBunga Tabungan Anda bulan ke-2 adalah :"<<bunga;
+		cout<<"\nTotal investasi sampai bulan ke-2 adalah :"<<total_keuntungan;
+		cout<<"\n--------------------------------------";
+		
+ 		for (int bulan = 1; bulan <= 3; bulan++)
+		cout<<"\nMasukkan besar debet bulan ke-3 :" ;
+		cin>>modal;
+		besar_investasi=modal+investasi;
+		bunga=besar_investasi*(5/100);
+		total_keuntungan=besar_investasi+bunga;
+		
+		cout<<"\nBesar investasi sampai bulan ke-3 adalah :"<<besar_investasi;
+		cout<<"\nBunga Tabungan Anda bulan ke-3 adalah :"<<bunga;
+		cout<<"\nTotal investasi sampai bulan ke-3 adalah :"<<total_keuntungan;
+		cout<<"\n--------------------------------------";
+		
+	
+
+total_diperoleh=modal+total_keuntungan;
+	cout<<"\n Total Keuntungan investasi sampai bulan ke-3 adalah :"<<total_diperoleh;
+
+return 0;
+}
+
+
+
