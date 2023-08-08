@@ -1,0 +1,30 @@
+Tugas Praktik Mandiri 1
+Nama : Kartika Dwi Putri
+
+void main() {
+{ //keliling lingkaran
+double jariJari = 12;
+double phi = 22/7;
+double kelilingLingkaran = 2 * phi * jariJari;
+print(kelilingLingkaran);
+}
+}
+
+void main() {
+{ //keliling persegi
+double sisi = 7;
+double hasil = 4 * sisi;
+print(hasil);
+}
+}
+
+void main() {
+{ //keliling persegi panjang
+double p = 20;
+double l = 15;
+double hasilpp = p * l * 2;
+print(hasilpp);
+}
+}
+
+
